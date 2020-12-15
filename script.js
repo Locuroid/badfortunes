@@ -1,5 +1,5 @@
 function fortuning() {
-  let fetchFortune = fetch("https://bad-fortune-api.fleece123.repl.co/fortune");
+  let fetchFortune = fetch("https://badfortunes.fleece123.repl.co/fortune");
 
   fetchFortune
   .then(res => res.json())
